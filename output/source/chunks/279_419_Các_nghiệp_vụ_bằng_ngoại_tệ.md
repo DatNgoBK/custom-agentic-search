@@ -1,0 +1,3 @@
+#### 4.19 Các nghiệp vụ bằng ngoại tệ
+
+Theo hệ thống kế toán của Ngân hàng, tất cả các nghiệp vụ phát sinh của Ngân hàng được hạch toán theo nguyên tệ. Tại thời điểm cuối năm, tài sản và công nợ có nguồn gốc ngoại tệ được quy đổi sang VND theo tỷ giá quy định vào ngày lập báo cáo tình hình tài chính hợp nhất (*Thuyết minh số 49*). Các khoản thu nhập và chi phí bằng ngoại tệ của Ngân hàng được quy đổi ra VND theo tỷ giá vào ngày phát sinh giao dịch. Chênh lệch tỷ giá do đánh giá lại các tài sản và công nợ bằng ngoại tệ sang VND trong năm được ghi nhận và theo dõi trên khoản mục "*Chênh lệch tỷ giá hối đoái*" thuộc "*Vốn chủ sở hữu*" trên báo cáo tình hình tài chính hợp nhất và được kết chuyển vào báo cáo kết quả hoạt động hợp nhất tại thời điểm cuối năm tài chính.

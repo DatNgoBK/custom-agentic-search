@@ -1,0 +1,3 @@
+#### **4.3.2. Khả năng thanh khoản**
+
+Với dư nợ cho vay trên 176.000 tỷ, chỉ số dư nợ cho vay/tổng tài sản của MSB khoảng 55,13%. Các chỉ số về thanh khoản như chỉ số tổng nợ/tổng huy động (LDR) và hệ số nguồn vốn ngắn hạn cho vay trung và dài hạn (MTLT) lần lượt đạt 72,24 % và 28,27%, đảm bảo mức tốt so với yêu cầu của Cơ quan quản lý (mức yêu cầu lần lượt là 85% và 30%). Trong những năm gần đây, danh mục huy động vốn trung và dài hạn của MSB được hỗ trợ nhiều từ các khoản vay tổ chức tài chính nước ngoài như Proparco, Opec Fund, ngân hàng Standard Chartered… MSB hiện đang làm việc với một số đối tác để huy động nguồn vốn có tiêu chí phát triển bền vững cấp cho trung và dài hạn.

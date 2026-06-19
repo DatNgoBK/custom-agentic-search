@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-qdrant"
+version = "0.1.0"
+description = "Custom Qdrant adapter for OpenViking — agentic search over Vietnamese financial PDF"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "AGPL-3.0-or-later" }
+authors = [{ name = "VibeAssignment candidate" }]
+
+dependencies = [
+    # OpenViking — agentic search engine
+    "openviking>=0.1.0",
+    # Qdrant client (gRPC + HTTP)
+    "qdrant-client[fastembed]>=1.12.0",
+    # Config & validation
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "python-dotenv>=1.0",
+    # HTTP for embedding & reranker services
+    "httpx>=0.27",
+    # Resilience
+    "tenacity>=8.2",
+    "pybreaker>=1.2",
+    # Observability
+    "structlog>=24.1",
+    "prometheus-client>=0.20",
+    # Eval
+    "pyyaml>=6.0",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "testcontainers[qdrant]>=4.5",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+otel = [
+    "opentelemetry-sdk>=1.25",
+    "opentelemetry-exporter-otlp>=1.25",
+    "opentelemetry-instrumentation-httpx>=0.46b0",
+]
+
+[project.scripts]
+rag-ingest = "rag_qdrant.cli:ingest_cmd"
+rag-query = "rag_qdrant.cli:query_cmd"
+rag-eval = "rag_qdrant.cli:eval_cmd"
+rag-health = "rag_qdrant.cli:health_cmd"
+
+[tool.setuptools.packages.find]
+include = ["rag_qdrant*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "N", "SIM", "RET"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

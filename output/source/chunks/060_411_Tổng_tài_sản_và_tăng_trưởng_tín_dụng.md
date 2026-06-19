@@ -1,0 +1,17 @@
+#### **4.1.1. Tổng tài sản và tăng trưởng tín dụng**
+
+Tổng tài sản của MSB tại 31/12/2024 đạt 320.148 tỷ đồng, tăng 19,9% so với 2023. Động lực chính cho mức gia tăng này đến từ Cho vay khách hàng – chiếm hơn 55% tổng tài sản. Mảng đầu tư trái phiếu cũng đóng góp tích cực với tổng giá trị là 65.605 tỷ đồng, tăng 73,11% so với cùng kỳ. Trong đó, khoảng 65% danh mục này là Trái phiếu Chính phủ, gần 34% là trái phiếu tổ chức tín dụng và chỉ có hơn 1% là trái phiếu doanh nghiệp. Trong tổng số trái phiếu mà MSB nắm giữ, chỉ có hơn 900 tỷ đồng là trái phiếu doanh nghiệp, thấp hơn mức 1.525 tỷ tại cuối năm 2023 và tiếp tục theo xu hướng giảm trong thời gian tới.
+
+Tài sản sinh lời được cải thiện so với năm 2023 khi tăng gần 22,05%, đạt 97% năm 2024 cho thấy việc cải thiện trong hiệu quả sử dụng tài sản qua các năm. Ngân hàng đã thanh lý hết tài sản gán nợ là tàu biển trong năm 2024 như đã cam kết, từ đó hỗ trợ cải thiện chất lượng tài sản của MSB, đưa số dư cuối kỳ với tài sản gán nợ về khoảng 59 tỷ đồng, so với mức 1.115 tỷ của năm trước.
+
+Năm 2024, MSB ghi nhận tỷ lệ tăng trưởng tín dụng đạt 18,25% (mảng ngân hàng), thuộc mức tăng trưởng cao so với toàn ngành với tổng dư nợ cho vay khách hàng đạt 176.493 tỷ đồng.
+
+Tỷ trọng mảng khách hàng cá nhân và doanh nghiệp vừa và nhỏ tăng dần trong tổng dư nợ tín dụng, chiếm khoảng 70% tổng danh mục cho vay, theo đúng chiến lược mà MSB theo đuổi. Trong đó, dư nợ tín dụng cho khách hàng cá nhân chiếm gần 27% và khách hàng danh nghiệp SME đạt gần 43%, tương ứng tăng trưởng năm lần lượt là 11,6% và 28,4%. Khách hàng doanh nghiệp lớn với tỷ trọng khoảng 30% tổng danh mục cho vay, đạt mức tăng trưởng hơn 16% cho năm 2024. 71,3% danh mục cho vay của MSB là các khoản vay ngắn và trung hạn, tùy theo khẩu vị rủi ro và biến động của thị trường, Ngân hàng có các chiến lược cho vay phù hợp với từng giai đoạn, tối ưu nguồn vốn huy động đồng thời đảm bảo tính thanh khoản, an toàn hoạt động.
+
+Các khoản vay phân bổ đều theo các ngành kinh tế, chủ yếu tập trung vào các ngành sản xuất, công nghiệp nhẹ, tiêu dùng, kinh doanh bất động sản, xây dựng (bao gồm thầu xây dựng và kinh doanh vật liệu xây dựng). Với bối cảnh các doanh nghiệp gặp nhiều khó khăn trong các năm qua, rủi ro nợ xấu là vấn đề chung của cả thị trường trong quý 2-3/2024. Với khẩu vị rủi ro chặt chẽ, MSB đẩy mạnh việc cấp tín dụng cho các khoản vay có tài sản đảm bảo. Các khách hàng được Ngân hàng cấp tín dụng là khách hàng truyền thống, lịch sử quan hệ tín dụng tốt, áp dụng quy trình thẩm định chặt chẽ và ngân hàng triển khai nhiều công cụ quản trị rủi ro, giám sát sau giải ngân. Trong 3 năm gần đây, MSB đẩy mạnh tín dụng xanh, tín dụng mang yếu tố xã hội, tập trung cho các ngành giáo dục, y tế, công nghệ, hỗ trợ các mục tiêu phát triển bền vững, xã hội hóa dịch vụ ngân hàng, tài chính toàn diện. Tại thời điểm cuối năm 2024, tổng dư nợ cho lĩnh vực tín dụng xanh của MSB là 5.165 tỷ đồng, chiếm gần 3% tổng dư nợ của Ngân hàng.
+
+Tỷ trọng của danh mục tín dụng xanh tập trung vào một số lĩnh vực chủ chốt như năng lượng tái tạo, năng lượng sạch, giao thông bền vững, tái chế - tái sử dụng các nguồn tài nguyên, quản lý nước bền vững tại khu vực đô thị và nông thôn và các lĩnh vực xanh khác.
+
+Đối với danh mục cho vay của Ngân hàng Bán lẻ, sản phẩm cho vay mua nhà chiếm khoảng 45% tổng tín dụng bán lẻ, tiếp theo là cho vay tiêu dùng và vay kinh doanh.
+
+*Danh mục cho vay MSB tại 31/12/2024 (ĐVT: %)*

@@ -1,0 +1,5 @@
+# **Sản phẩm mua bán ngoại tệ và chuyển tiền quốc tế cho khách hàng cá nhân**
+
+Trong bối cảnh hội nhập quốc tế ngày càng sâu rộng, cộng đồng người Việt Nam học tập, sinh sống và làm việc tại nước ngoài không ngừng gia tăng, hiện ước tính đạt hơn 5,3 triệu người, tạo nhu cầu lớn trong giao dịch ngoại tệ và chuyển tiền quốc tế.
+
+Với chiến lược đổi mới sáng tạo và tập trung nâng cao chất lượng dịch vụ, sản phẩm ngoại tệ và chuyển tiền quốc tế của MSB đã đạt được những kết quả vượt bậc. Doanh thu thuần trong mảng kinh doanh ngoại tệ năm 2024 tăng gấp 1,5 lần so với năm 2023, trong khi đó, giá trị giao dịch tăng gấp đôi. Đây là minh chứng rõ nét cho chất lượng dịch vụ của MSB. Với sự tận tâm của đội ngũ nhân viên nghiệp vụ, Ngân hàng đã thuyết phục và giữ chân khách hàng cũ, tạo dựng được sự tin tưởng của khách hàng mới, đưa vị thế MSB luôn trong danh sách lựa chọn hàng đầu của khách hàng khi có nhu cầu dịch vụ ngân hàng liên quan đến ngoại tệ. Kết quả trên không chỉ xuất phát từ năng lực quản trị hiệu quả mà còn từ sự cam kết mạnh mẽ trong việc mang đến các giải pháp tài chính toàn diện, thuận tiện và bảo mật cho khách hàng.

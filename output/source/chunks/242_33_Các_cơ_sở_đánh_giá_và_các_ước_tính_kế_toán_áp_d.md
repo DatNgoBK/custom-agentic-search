@@ -1,0 +1,3 @@
+#### 3.3 Các cơ sở đánh giá và các ước tính kế toán áp dụng
+
+Việc trình bày báo cáo tài chính hợp nhất yêu cầu Hội đồng Điều hành phải thực hiện các ước tính và giả định ảnh hưởng đến số liệu báo cáo của tài sản, nợ phải trả cũng như việc trình bày các công nợ tiềm ẩn. Các ước tính và giả định này cũng ảnh hưởng đến thu nhập, chi phí và kết quả số liệu dự phòng. Các ước tính này được lập dựa trên các giả định về một số yếu tố với các mức độ khác nhau về chủ quan và tính không chắc chắn. Do vậy, các kết quả thực tế có thể khác với các ước tính dẫn đến việc điều chỉnh các khoản mục có liên quan sau này.

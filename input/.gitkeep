@@ -1,0 +1,2 @@
+# Place your source PDF here as `source.pdf` before running `make marker`.
+# The MSB report PDF is gitignored (17MB, too large for the repo).

@@ -1,0 +1,3 @@
+# BÁO CÁO THƯỜNG NIÊN 2024
+
+NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN HÀNG HẢI VIỆT NAM (MSB)

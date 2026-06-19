@@ -1,0 +1,5 @@
+# **ỨNG DỤNG AI VÀ BIG DATA**
+
+**Để cải thiện dịch vụ & ra quyết định**
+
+MSB có mạng lưới bao phủ rộng khắp 51 tỉnh thành với 260 điểm giao dịch và 285 điểm ATM. Các chi nhánh đang dần chuyển mình từ dịch vụ truyền thống (giao dịch trực tiếp, in sao kê, gửi tiết kiệm…) sang các dịch vụ số hóa (sử dụng ứng dụng ngân hàng trực tuyến, giao dịch qua điện thoại di động, thanh toán qua QR Code…). Một số chi nhánh ngân hàng đã triển khai các công nghệ tiên tiến như giao dịch qua máy ATM hiện đại, kios bán hàng tự động, hay các "chi nhánh số" giúp người dùng giao dịch trực tuyến mà không cần đến quầy. Các dịch vụ như vay online, mở tài khoản ngân hàng từ xa, và các dịch vụ tài chính cá nhân tự động đang trở thành xu hướng phát triển chủ yếu của các chi nhánh ngân hàng. Quá trình chuyển đổi số toàn diện giúp MSB có mô hình kiểm soát chặt chẽ hơn các rủi ro hoạt động, tài chính, tín dụng ngay từ thời điểm thiết lập quan hệ với khách hàng, đồng thời tiết giảm chi phí để cải thiện lợi nhuận hoạt động.

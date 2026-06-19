@@ -1,0 +1,5 @@
+# **9.2.7. Dự án Chuyển đổi dữ liệu doanh nghiệp (Enterprise Data Transformation):**
+
+Hướng đến các mục tiêu dài hạn như xây dựng nền tảng dữ liệu tập trung, tăng cường năng lực quản trị và phân tích dữ liệu, nâng cao năng lực phân tích dữ liệu.
+
+Dự án Chuyển đổi dữ liệu doanh nghiệp đã thí điểm năng lực cung cấp các am hiểu về khách hàng dựa trên công nghệ về dữ liệu lớn với việc tích hợp và phát triển các luồng dữ liệu theo lô và thời gian thực (Real time) trên nền tảng lõi của ngân hàng, chuẩn bị sẵn sàng cho việc triển khai nền tảng dữ liệu tập trung vào năm 2025. Về mặt quản trị dữ liệu, dự án đã triển khai năng lực quản lý siêu dữ liệu tập trung (Metadata), hoàn thành Metadict – Hệ thống quản trị siêu dữ liệu tập trung. Trong năm tới, dự án sẽ tiếp tục hoàn thành việc triển khai nền tảng dữ liệu tập trung, đồng thời triển khai nền tảng công nghệ mới giúp quản lý tập trung siêu dữ liệu, bao gồm từ điển dữ liệu của các hệ thống/ứng dụng trọng yếu và danh mục thuật ngữ nghiệp vụ thống nhất toàn ngân hàng.

@@ -1,0 +1,11 @@
+#### **Với mục tiêu dài hạn**
+
+MSB định hướng trở thành một trong những ngân hàng dẫn đầu tại Việt Nam và mở rộng ra thị trường quốc tế. Trọng tâm của chiến lược dài hạn là phát triển ngân hàng số thế hệ mới, ứng dụng công nghệ tiên tiến và mở rộng hệ sinh thái tài chính theo tiêu chuẩn quốc tế. Đồng thời, "xanh hóa" ngân hàng tiếp tục được xác lập là mục tiêu mũi nhọn, áp dụng mạnh mẽ các tiêu chí các tiêu chí môi trường – xã hội vào quản trị. Đây cũng là cơ sở để nâng cao uy tín, năng lực tài chính cũng như mở rộng hợp tác chiến lược để khẳng định vị thế vững chắc trong khu vực và toàn cầu. Cụ thể:
+
+- Phát triển ngân hàng số toàn diện, cung cấp sản phẩm, dịch vụ đa kênh, đa khu vực.
+- Tăng cường kết nối với hệ thống thanh toán quốc tế và phát triển dịch vụ kiều hối cho khách hàng Việt Nam ở nước ngoài.
+- Lan tỏa hình ảnh MSB ra thị trường quốc tế thông qua hợp tác với các đối tác chiến lược.
+
+ Phát triển bền vững theo chuẩn ESG: Đầu tư vào ngân hàng xanh, giảm phát thải carbon; cung cấp các sản phẩm tài chính có tính bền vững như trái phiếu xanh, gói tín dụng ưu đãi cho doanh nghiệp ESG, đưa dịch vụ ngân hàng tới mọi người dân, thực thi hóa mục tiêu tài chính toàn diện.
+
+Với mục tiêu tăng trưởng đảm bảo bền vững, MSB cũng như các tổ chức, doanh nghiệp khác hiểu rằng sự phát triển của doanh nghiệp cần có định hướng dài hạn. Doanh nghiệp khó có thể tăng trưởng hiệu quả khi chỉ tập trung cho các mục tiêu ngắn hạn mà không đánh giá những ảnh hưởng dài hạn tới môi trường – xã hội và lợi ích tổng thể của các bên liên quan. Trên cơ sở đó, ngoài mục tiêu kinh doanh được Ngân hàng quan tâm hàng đầu và nỗ lực thực hiện hàng năm, MSB đang từng bước xây dựng chiến lược phát triển bền vững và tích hợp các yếu tố này vào chiến lược kinh doanh, trong đó đặc biệt chú trọng tới yếu tố môi trường và tác động của biến đổi khí hậu. Chiến lược tổng thể này sẽ phù hợp với kế hoạch giảm phát thải ròng carbon của quốc gia về mức 0 năm 2050, song hành cùng xu thế xanh hóa của quốc tế và tiên phong, linh hoạt với môi trường kinh doanh nhiều biến động. Để gìn giữ tiến trình phát triển, cân bằng các mục tiêu kinh tế, môi trường và xã hội, MSB sẽ đánh giá mức độ trọng yếu của các mục tiêu phát triển bền vững, từ đó đẩy mạnh triển khai các sáng kiến này nhằm tạo nền tảng cho chiến lược dài hạn.

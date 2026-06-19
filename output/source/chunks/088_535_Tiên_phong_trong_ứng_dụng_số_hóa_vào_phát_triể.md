@@ -1,0 +1,5 @@
+#### **5.3.5. Tiên phong trong ứng dụng số hóa vào phát triển sản phẩm và dịch vụ Giấy tờ có giá**
+
+Trong năm 2024, MSB tiếp tục khẳng định vị thế của mình khi không ngừng cải thiện các sản phẩm hiện hữu như Dịch vụ Ngân hàng Lưu ký và Giám sát, Quản trị Quỹ, đồng thời ra mắt sản phẩm Chứng chỉ tiền gửi "Sinh lời linh hoạt". Sản phẩm này được phát triển trên nền tảng số hóa hiện đại, mang lại trải nghiệm tối ưu với sự tiện lợi, an toàn và hiệu quả cho khách hàng. Đây chính là minh chứng rõ nét cho sự nỗ lực của MSB trong việc ứng dụng công nghệ tiên tiến nhằm đáp ứng nhu cầu tài chính ngày càng đa dạng và nâng cao chất lượng dịch vụ.
+
+Việc triển khai thành công các sản phẩm cùng chiến lược số hóa trong năm 2024 đã giúp MSB không chỉ gia tăng nguồn thu ổn định từ phí dịch vụ mà còn mở rộng đáng kể tệp khách hàng. Điều này mở ra cơ hội tăng trưởng vượt bậc thông qua các chiến lược tiếp cận đổi mới và bán chéo sản phẩm hiệu quả. Những thành tựu nổi bật này tái khẳng định cam kết của MSB trong việc nâng cao giá trị khách hàng, tiên phong dẫn đầu xu hướng số hóa và không ngừng nâng cao hiệu quả hoạt động kinh doanh.

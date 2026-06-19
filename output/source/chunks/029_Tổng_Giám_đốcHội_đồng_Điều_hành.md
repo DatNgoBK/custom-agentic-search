@@ -1,0 +1,13 @@
+#### **Tổng Giám đốc/Hội đồng Điều hành:**
+
+Tổng Giám đốc (TGĐ) là người đại diện theo pháp luật của MSB, đồng thời cũng là người điều hành cao nhất của MSB, chịu trách điều hành công việc kinh doanh hàng ngày của Ngân hàng. TGĐ chịu sự giám sát của HĐQT và Ban Kiểm soát, chịu trách nhiệm trước HĐQT và trước pháp luật về việc thực hiện quyền, nghĩa vụ và nhiệm vụ phù hợp với Điều lệ của MSB và quy định của pháp luật.
+
+Nhân sự giúp việc cho TGĐ bao gồm các Phó TGĐ, Chánh văn phòng TGĐ, các Giám đốc Khối/Ban và các Hội đồng chuyên môn. Các Hội đồng trực thuộc và làm nhiệm vụ tham mưu cho TGĐ bao gồm: Hội đồng Quản lý tài sản nợ - tài sản có (ALCO), Hội đồng Điều hành, Hội đồng Quản lý rủi ro, Hội đồng Quản lý vốn, Hội đồng Tín dụng và Đầu tư, Hội đồng Sản phẩm, Hội đồng Tín dụng cấp cao, Hội đồng Tín dụng Khách hàng chiến lược và các Hội đồng khác. Các đơn vị trực thuộc TGĐ gồm: Ngân hàng Bán lẻ, Ngân hàng Doanh nghiệp, Ngân hàng Định chế tài chính, Ngân hàng Quản lý tín dụng, Khối Khách hàng chiến lược, Khối Quản lý rủi ro, Khối Quản lý tài chính, Khối Chiến lược, Khối Vận hành, Khối Công nghệ, Khối Tư vấn pháp lý và tuân thủ, Khối Chuyển đổi số, Khối Văn Phòng & Dịch vụ nội bộ, Trung tâm phân tích dữ liệu nâng cao.
+
+MSB bổ nhiệm chức danh Kế toán trưởng đáp ứng các tiêu chuẩn, điều kiện theo quy định của pháp luật về kế toán, quy định tại Điều 54 Luật Kế [toán 2015](https://thuvienphapluat.vn/van-ban/Ke-toan-Kiem-toan/Luat-ke-toan-2015-298369.aspx?anchor=dieu_54) và đảm bảo tuân thủ đúng quy định tại Điều 42 Luật Các tổ chức tín dụng 2024.
+
+Cơ cấu tổ chức của MSB được thiết kế đảm bảo phân tách giữa hoạt động kinh doanh và hỗ trợ: Các Ngân hàng chuyên doanh tập trung vào hoạt động kinh doanh, phát triển, thúc đẩy khách hàng. Các đơn vị hỗ trợ đảm bảo vai trò chuyên môn hóa như vận hành, công nghệ, quản lý rủi ro.
+
+**Năm 2024 cũng ghi nhận sự thay đổi mô hình quản trị và tổ chức kinh doanh của MSB hướng đến phát triển bền vững.** Thực hiện chủ trương tinh gọn cơ cấu, giảm các trung gian báo cáo để điều hành, hỗ trợ kinh doanh nhanh chóng, đồng thời tối ưu chi phí, lấy lợi ích của cổ đông và khách hàng làm mục tiêu ưu tiên, HĐQT MSB đã quyết định các hoạt động liên quan đến marketing, truyền thông và văn hóa của MSB được phối hợp thực hiện cùng các nguồn lực bên ngoài. MSB tập trung chuyên sâu vào các năng lực kinh doanh cốt lõi và trọng yếu của Ngân hàng, đồng thời tối ưu hóa chi phí cho các hoạt động marketing, truyền thông và văn hóa.
+
+Bên cạnh đó, mô hình quản trị của MSB vẫn đảm bảo tính hiệu quả trong việc gắn kết các mục tiêu phát triển bền vững với chiến lược phát triển chung của Ngân hàng. Cụ thể như sau:

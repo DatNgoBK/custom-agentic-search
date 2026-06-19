@@ -1,0 +1,3 @@
+# **Ông NGUYỄN HOÀNG LINH Thạc sĩ – Đại học Bách khoa Hà Nội Thành viên Hội đồng Quản trị, Tổng Giám đốc**
+
+Ông Nguyễn Hoàng Linh có hơn 26 năm kinh nghiệm trong lĩnh vực tài chính ngân hàng và từng giữ nhiều chức vụ quan trọng trong các ngân hàng tại Việt Nam như: thành viên Hội đồng Quản trị, Tổng Giám đốc PVcomBank, Tổng Giám đốc Western Bank, Quyền Tổng Giám đốc Ngân hàng Việt Á,… Tại MSB, ông đã trải qua hơn 20 năm công tác và được tin tưởng giao phó nhiều trọng trách như: Giám đốc MSB Hồ Chí Minh, Phó Tổng Giám đốc kiêm Giám đốc Khối Chiến lược, Phó Tổng Giám đốc kiêm Tổng Giám đốc Ngân hàng Bán lẻ. Từ tháng 03/2020, ông được bổ nhiệm giữ chức vụ Tổng Giám đốc MSB. Từ tháng 09/2020, ông được bầu là thành viên Hội đồng Quản trị MSB.

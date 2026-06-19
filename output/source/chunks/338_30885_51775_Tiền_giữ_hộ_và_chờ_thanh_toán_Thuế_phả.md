@@ -1,0 +1,1 @@
+#### 30.885 51.775 Tiền giữ hộ và chờ thanh toán Thuế phải nộp cho ngân sách nhà nước 805.440 670.804 Chuyển tiền phải trả 251.194 185.572 Tiền thu từ việc bán nợ, tài sản bảo đảm nợ hoặc 275.326 15.956 khai thác tài sản bảo đảm nợ 1.153.925 410.876 Các khoản phải trả khác 2.337.402 1.514.351

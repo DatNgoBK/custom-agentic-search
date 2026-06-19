@@ -1,0 +1,3 @@
+#### 4.22 Phân loại nợ cho các cam kết ngoại bảng
+
+Ngân hàng thực hiện phân loại đối với các khoản bảo lãnh, nghiệp vụ thư tín dụng (trừ trường hợp quy định tại điểm n, khoản 1 Điều 1 Thông tư 31), chấp nhận thanh toán và cam kết cho vay không hủy ngang vô điều kiện và có thời điểm thực hiện cụ thể (gọi chung là các khoản cam kết ngoại bảng) nhằm mục đích quản lý, giám sát chất lượng hoạt động cấp tín dụng theo chính sách phân loại áp dụng đối với các khoản nợ như được trình bày tại *Thuyết minh số 4.5*. Theo Nghị định 86, Ngân hàng không cần phải trích lập dự phòng cho các cam kết ngoại bảng.

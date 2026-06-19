@@ -1,0 +1,3 @@
+# **Tiến sĩ - Trường Đại học Kỹ thuật Điện Saint Petersburg Thành viên Hội đồng Quản trị**
+
+Ông đã đảm nhiệm các vị trí nhân sự chủ chốt tại các tổ chức uy tín trong nước và quốc tế như: Tổng Giám đốc Công ty TNHH Tư Vấn PricewaterhouseCoopers (PwC); Giám đốc Chuyển đổi số Công ty TNHH PwC Việt Nam; Giám đốc Khối Dịch vụ Ngân hàng Công nghệ số, Giám đốc Khối Công nghệ thông tin VPBank; Tổng Giám đốc Công ty TNHH IBM Việt Nam. Ông gia nhập MSB từ cuối năm 2023 và đảm nhiệm vai trò Chủ tịch Ủy ban Công nghệ. Từ tháng 04/2024 đến nay, ông được bầu giữ chức vụ thành viên Hội đồng Quản trị MSB. Đồng thời, ông Long cũng là Chủ tịch Ủy ban Phát triển bền vững.

@@ -1,0 +1,120 @@
+# Production-style compose: API key auth, resource limits, healthchecks,
+# named volumes, profiles for selective startup (memory-conscious for 16GB hosts).
+#
+# Embedding model is hosted on OpenRouter (OpenAI-compatible /v1/embeddings)
+# so there is no local TEI service to run for the default flow. The optional
+# `tei-embed` and `tei-rerank` services are kept under explicit profiles so
+# users on disconnected machines can swap them in by setting EMBED_BASE_URL.
+#
+# Usage:
+#   docker compose up -d                               # default: Qdrant only
+#   docker compose --profile rerank up -d              # add local reranker
+#   docker compose --profile local-embed up -d         # add local embed (TEI)
+#
+# RAM budget on M4 16GB (default config):
+#   Qdrant            ~ 0.5 GB
+#   Total active:     ~ 0.5 GB  (embeddings via OpenRouter network)
+
+services:
+  qdrant:
+    # No `profiles:` → starts on plain `docker compose up` by default.
+    image: qdrant/qdrant:v1.12.4
+    container_name: rag-qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"   # HTTP
+      - "6334:6334"   # gRPC
+    environment:
+      QDRANT__SERVICE__API_KEY: ${QDRANT_API_KEY:-dev-local-changeme}
+      QDRANT__SERVICE__ENABLE_TLS: "false"
+      QDRANT__LOG_LEVEL: INFO
+      # NOTE: HNSW + indexing thresholds are set at collection level by the
+      # adapter (see _build_default_index_meta) — keeps env minimal and avoids
+      # duplicate-field errors when Qdrant ships a default in /qdrant/config.
+    volumes:
+      - qdrant_storage:/qdrant/storage
+    healthcheck:
+      # /healthz is unauthenticated by design and returns 200 once Qdrant is ready.
+      # The qdrant image is distroless-ish (no curl/wget); use bash TCP probe instead.
+      test: ["CMD-SHELL", "bash -c '</dev/tcp/127.0.0.1/6333' >/dev/null 2>&1"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 256M
+
+  tei-embed:
+    # Optional: local embedding fallback when offline. Image is amd64-only,
+    # so on Apple Silicon it runs via Rosetta — slow (~2-3s/query) but works.
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-1.5
+    platform: linux/amd64
+    profiles: [local-embed]
+    container_name: rag-tei-embed
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    command:
+      - --model-id=${EMBED_MODEL:-intfloat/multilingual-e5-base}
+      - --port=80
+      - --max-batch-tokens=8192
+      - --max-concurrent-requests=64
+    volumes:
+      - hf_cache:/data
+    environment:
+      HF_HOME: /data
+      RUST_LOG: text_embeddings_router=info
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 60s   # first run downloads model
+    deploy:
+      resources:
+        limits:
+          memory: 3G
+        reservations:
+          memory: 1G
+
+  tei-rerank:
+    # Reranker: amd64 image runs via Rosetta on Apple Silicon. Acceptable for
+    # rerank workload (top-20 → top-5, batched, ~300-500ms on M4 with quant).
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-1.5
+    platform: linux/amd64
+    profiles: [rerank]
+    container_name: rag-tei-rerank
+    restart: unless-stopped
+    ports:
+      - "8081:80"
+    command:
+      - --model-id=${RERANK_MODEL:-BAAI/bge-reranker-base}
+      - --port=80
+      - --max-batch-tokens=8192
+    volumes:
+      - hf_cache:/data
+    environment:
+      HF_HOME: /data
+      RUST_LOG: text_embeddings_router=info
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
+    deploy:
+      resources:
+        limits:
+          memory: 3G
+        reservations:
+          memory: 1G
+
+volumes:
+  qdrant_storage:
+    driver: local
+  hf_cache:
+    driver: local

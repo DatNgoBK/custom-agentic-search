@@ -1,0 +1,28 @@
+## **3. Các kế hoạch, định hướng của Hội đồng Quản trị**
+
+Trong giai đoạn tình hình kinh tế, chính trị, xã hội trong nước và quốc tế có nhiều diễn biến phức tạp, Hội đồng Quản trị đã triển khai chỉ đạo, thực hiện thành công các chỉ tiêu được giao phó từ Đại hội đồng cổ đông, cụ thể như sau:
+
+*Đơn vị: tỷ đồng*
+
+| TT | Chỉ tiêu                                                                                        | Kế hoạch 2024 | Thực hiện 2024 | So sánh TH2024/KH2024 |
+|----|----------------------------------------------------------------------------------------------------|---------------------|-------------------|--------------------------|
+| 1  | Tổng tài sản                                                                                       | 280.000             | 320.148           | 114%                     |
+| 2  | Vốn huy động tại thị trường I và trái phiếu huy động vốn                                     | 178.900             | 175.823           | 98,3%                    |
+| 3  | tín dụng (bao gồm dư nợ Dư nợ cho vay TCKT và cá nhân, đầu tư trái phiếu doanh nghiệp) | 178.200             | 177.394           | 99,5%                    |
+| 4  | xấu hợp nhất (nhóm 3-5) Nợ                                                                      | <3%                 | 1,9%              | Đạt kế hoạch          |
+| 5  | Lợi nhuận trước thuế thu nhập doanh nghiệp                                                   | 6.800               | 6.904             | 101,5%                   |
+| 6  | Thù lao, chi phí HĐQT và BKS                                                                       | 24,5                | 16,89             | 68,9%                    |
+| 7  | Vốn điều lệ                                                                                        | 26.000              | 26.000            | 100%                     |
+| 8  | cổ tức/chia cổ phiếu Tỷ lệ chi trả nguồn lợi thưởng (%/mệnh giá) từ nhuận  | 30%                 | 30%               | 100%                     |
+
+Song hành với các chỉ tiêu tài chính, Hội đồng Quản trị còn tập trung:
+
+ Công tác quản trị luôn hướng đến mục tiêu phát triển bền vững: Với cam kết đồng hành cùng Chính phủ Việt Nam trong tiến trình giảm phát thải ròng carbon về mức 0 vào năm 2050, công tác quản trị, điều hành hệ thống của MSB luôn dựa trên nguyên tắc quản trị tuân thủ và đáp ứng cao hơn các tiêu chí theo quy định của pháp luật hiện hành. Đồng thời, MSB luôn cân nhắc hài hòa giữa mục tiêu phát triển và trách nhiệm với xã hội, môi trường. Bằng việc không ngừng học hỏi và áp dụng các thông lệ quản trị quốc tế tốt nhất, MSB đã hoàn thành bước đầu xây dựng một khung quản trị phát triển bền vững bao gồm hệ thống các điều lệ, quy chế, quy định và văn bản pháp quy áp dụng trong nội bộ, nhằm mang đến môi trường làm việc công bằng, giàu cơ hội phát triển cho tất cả nhân sự, bất kể giới tính, xuất phát điểm hay vị trí chức vụ. Trong thời gian tới, MSB sẽ đặc biệt hướng mọi hoạt động thường nhật tới tiêu chí bảo vệ môi trường và chống biến đổi khí hậu; chú trọng hỗ trợ các tệp khách hàng chuyển đổi xanh, cân nhắc các rủi ro môi trường - xã hội trong hoạt động kinh doanh, tiến tới giảm phát thải và tăng trưởng bền vững, sẵn sàng trở thành đối
+
+tác tin cậy cùng các doanh nghiệp vươn mình trong xu thế "xanh" theo định hướng của Chính phủ.
+
+- Ủy ban Phát triển bền vững cần tiếp tục phát huy năng lực và trách nhiệm của mình trong việc xây dựng chiến lược, tiến trình phát triển bền vững; phối hợp với các Uỷ ban và đơn vị liên quan để tích hợp các chiến lược phát triển bền vững với kế hoạch kinh doanh trung và dài hạn của Ngân hàng.
+- Tiếp tục nâng cao năng lực quản trị công nghệ, chuyển đổi số: Chuyển đổi nền tảng công nghệ tiên tiến phù hợp với chiến lược kinh doanh tổng thể của ngân hàng nhằm tăng sự linh hoạt, kịp thời đáp ứng nhu cầu thay đổi trong kinh doanh, tạo động lực thúc đẩy năng lực của đơn vị bán hàng, chuyển dịch cách thức vận hành và kinh doanh theo hướng số hóa. Cùng với đó, một số hoạt động khác cũng được đẩy mạnh như xây dựng khung quản trị dữ liệu toàn hàng, chuẩn hóa siêu dữ liệu và nâng cao, xây dựng nền tảng dữ liệu tập trung toàn hàng đồng thời phát triển, vận hành tự động các báo cáo phân tích phục vụ kinh doanh.
+- Chú trọng hoạt động quản lý và đa dạng hóa nguồn vốn, đảm bảo an toàn cho hoạt động của Ngân hàng, cũng như có nguồn vốn ổn định cho việc tăng trưởng đầu tư và cho vay; phát triển tín dụng trên nguyên tắc cẩn trọng, đảm bảo chất lượng và an toàn, giảm chi phí dự phòng rủi ro tín dụng, tăng thu nhập từ thu hồi các khoản nợ đã xử lý rủi ro; tối ưu hóa chi phí hoạt động thông qua việc tinh gọn và số hóa các quy trình, sản phẩm từ khách hàng đến các quy trình, dịch vụ nội bộ.
+- Phát triển khách hàng theo định hướng chiến lược chung đã được thiết lập, trong đó, tập trung nguồn lực để tăng trưởng tối đa đối với mảng danh mục lõi là khách hàng cá nhân (KHCN) và khách hàng doanh nghiệp vừa và nhỏ (SMEs). Bên cạnh đó, nghiên cứu, phát triển các mô hình hỗ trợ khách hàng tối đa trên cơ sở tập trung vào 05 trọng tâm chính gồm: thấu hiểu khách hàng, khai thác chuỗi và hệ sinh thái, nâng cao hiệu suất bán hàng, tinh gọn và số hóa, ứng dụng Big Data và phân tích nâng cao.
+- Tiếp tục áp dụng các tiêu chuẩn quốc tế Basel III, IFRS, hoàn thiện chiến lược quản trị rủi ro số, cải thiện hiệu quả kiểm soát rủi ro, đồng thời củng cố chất lượng tài sản, tăng cường hệ thống bảo mật, an toàn an ninh nhằm bảo vệ ngân hàng khỏi những rủi ro tiềm ẩn; từng bước hoàn thiện hệ thống quản trị rủi ro ESG (Môi trường - Xã hội - Quản trị) theo chuẩn quốc tế để hướng tới mục tiêu tăng trưởng ổn định, xanh và bền vững.

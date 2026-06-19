@@ -1,0 +1,3 @@
+#### **7.2.3. Số hóa các hành trình dịch vụ nhân sự**
+
+Trong năm 2024, dự án "Số hóa hành trình dịch vụ nhân sự" nhằm nâng cao trải nghiệm cho cán bộ nhân viên tiếp tục được triển khai. Những hành trình dịch vụ nhân sự được số hóa có thể kể đến như: Hành trình xem xét tái ký hợp đồng lao động, Đánh giá sau thử việc, Đào tạo nghề, Lưu trữ hồ sơ nhân sự, Thanh lý hợp đồng lao động, Điều chuyển, Điều động, Bổ nhiệm lại, Ký hợp đồng lao động số, Quy hoạch nhân sự…. đã nâng cao hiệu quả công việc, giúp giảm thiểu sai sót, đồng thời cho phép cán bộ nhân viên xử lý các tác vụ liên quan dễ dàng và nhanh chóng hơn.

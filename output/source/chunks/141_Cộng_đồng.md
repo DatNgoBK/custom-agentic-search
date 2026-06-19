@@ -1,0 +1,3 @@
+#### **Cộng đồng**
+
+ Chung tay góp gần 15 tỷ đồng cho các chương trình thiện nguyện với chuỗi hoạt động như xây dựng trường học, tài trợ nhà tình nghĩa, tổ chức trung thu cho trẻ em nghèo, chia sẻ khó khăn do thiên tai, bão lũ Yagi…
