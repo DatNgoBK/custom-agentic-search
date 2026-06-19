@@ -566,9 +566,3 @@ missing:
 | Docker daemon not running | Start Docker Desktop first; `make qdrant-up` will fail otherwise |
 | Want to re-ingest from scratch | `make clean-data` (drops Qdrant volume + workspace) then `make ingest` |
 
----
-
-## License
-
-AGPL-3.0-or-later (inherited from OpenViking). All code in this repo is
-provided under the same license.
