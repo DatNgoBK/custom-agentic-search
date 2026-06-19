@@ -69,6 +69,12 @@ make demo
 That's it. `make demo` runs the full pipeline end-to-end:
 preprocessing → ingestion → quality validation → 8 demo queries.
 
+> **Note**: `make install` creates a project-local `.venv/` and installs
+> everything inside it. All other `make` targets auto-detect this venv
+> — you don't need to `source .venv/bin/activate` first. If you already
+> have a global Python environment you'd rather use, override with
+> `make install PYTHON=/path/to/your/python`.
+
 **Already ingested before?** Just run `make query` (or any of the query
 modes below) — Qdrant data persists across restarts.
 

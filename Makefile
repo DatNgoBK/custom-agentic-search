@@ -1,6 +1,9 @@
-.PHONY: help install qdrant-up qdrant-down qdrant-health embed-up embed-down rerank-up rerank-down up down marker ingest query eval test lint clean
+.PHONY: help install qdrant-up qdrant-down qdrant-health embed-up embed-down rerank-up rerank-down up down marker ingest query eval test lint clean self-test self-test-fast
 
-PYTHON ?= python3
+# After `make install`, .venv exists and we use its Python directly so
+# users don't need to remember to `source .venv/bin/activate`. Override
+# with `make ingest PYTHON=python3` if you've installed globally.
+PYTHON  ?= $(if $(wildcard .venv/bin/python),.venv/bin/python,python3)
 COMPOSE ?= docker compose
 
 help:
@@ -26,7 +29,14 @@ help:
 	@echo "  demo           — full e2e: up + ingest + quality-check + query"
 
 install:
-	$(PYTHON) -m pip install -e ".[dev,otel]"
+	@if [ ! -d .venv ]; then \
+		echo "→ Creating .venv (Python 3.10+)..."; \
+		$(PYTHON) -m venv .venv; \
+	fi
+	@.venv/bin/python -m pip install --upgrade pip --quiet
+	@.venv/bin/python -m pip install -e ".[dev,otel]"
+	@echo
+	@echo "✓ Installed into .venv. Activate with:  source .venv/bin/activate"
 
 qdrant-up:
 	$(COMPOSE) --profile qdrant up -d qdrant
