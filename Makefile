@@ -1,10 +1,21 @@
-.PHONY: help install qdrant-up qdrant-down qdrant-health embed-up embed-down rerank-up rerank-down up down marker ingest query eval test lint clean self-test self-test-fast
+.PHONY: help install qdrant-up qdrant-down qdrant-health embed-up embed-down rerank-up rerank-down up down marker ingest query eval test lint clean self-test self-test-fast _check_compose
 
 # After `make install`, .venv exists and we use its Python directly so
 # users don't need to remember to `source .venv/bin/activate`. Override
 # with `make ingest PYTHON=python3` if you've installed globally.
 PYTHON  ?= $(if $(wildcard .venv/bin/python),.venv/bin/python,python3)
-COMPOSE ?= docker compose
+
+# Detect Docker Compose flavor: v2 plugin (`docker compose`) is preferred,
+# but fall back to v1 standalone (`docker-compose`) for users who haven't
+# updated. If neither works, the qdrant-up target prints a clear hint.
+COMPOSE ?= $(shell \
+	if docker compose version >/dev/null 2>&1; then \
+		echo "docker compose"; \
+	elif command -v docker-compose >/dev/null 2>&1; then \
+		echo "docker-compose"; \
+	else \
+		echo "missing-compose"; \
+	fi)
 
 # For `make install` we need a Python >= 3.10 binary. macOS often ships
 # with 3.9 as `python3` so we try common 3.10+ binaries first and fall
@@ -69,8 +80,8 @@ install:
 	@echo
 	@echo "✓ Installed into .venv. All make targets auto-use it."
 
-qdrant-up:
-	$(COMPOSE) --profile qdrant up -d qdrant
+qdrant-up: _check_compose
+	$(COMPOSE) up -d qdrant
 	@echo "Waiting for Qdrant to be healthy..."
 	@for i in 1 2 3 4 5 6 7 8 9 10; do \
 		if curl -sf -H "api-key: $${QDRANT_API_KEY:-dev-local-changeme}" http://localhost:6333/healthz >/dev/null; then \
@@ -78,7 +89,7 @@ qdrant-up:
 		fi; sleep 1; done; \
 		echo "Qdrant did not become healthy in time"; exit 1
 
-qdrant-down:
+qdrant-down: _check_compose
 	$(COMPOSE) stop qdrant
 
 qdrant-health:
@@ -90,22 +101,36 @@ embed-health:
 health: qdrant-health embed-health
 	@echo "All services healthy."
 
-embed-up:
-	$(COMPOSE) --profile embed up -d tei-embed
+# Optional local-embed/rerank profiles (off by default — OpenRouter handles both).
+embed-up: _check_compose
+	$(COMPOSE) --profile local-embed up -d tei-embed
 
-embed-down:
+embed-down: _check_compose
 	$(COMPOSE) stop tei-embed
 
-rerank-up:
+rerank-up: _check_compose
 	$(COMPOSE) --profile rerank up -d tei-rerank
 
-rerank-down:
+rerank-down: _check_compose
 	$(COMPOSE) stop tei-rerank
 
-up: qdrant-up embed-up rerank-up
-	@echo "All services started. Check 'docker compose ps'."
+up: qdrant-up
+	@echo "Services started. (Local TEI embed/rerank are optional; see 'make help')."
 
-down:
+# Internal: bail with a clear message if Docker Compose isn't installed.
+_check_compose:
+	@if [ "$(COMPOSE)" = "missing-compose" ]; then \
+		echo "::error:: Docker Compose not found."; \
+		echo "  Install Docker Desktop (includes Compose v2):"; \
+		echo "      https://www.docker.com/products/docker-desktop/"; \
+		echo "  Or, on Linux without Desktop, install the plugin:"; \
+		echo "      sudo apt install docker-compose-plugin"; \
+		echo "  Or, legacy v1 standalone:"; \
+		echo "      pip install docker-compose"; \
+		exit 1; \
+	fi
+
+down: _check_compose
 	$(COMPOSE) down
 
 marker:
