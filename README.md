@@ -51,9 +51,23 @@
 
 ## Quickstart (3 commands)
 
-**Prerequisites**: Docker, Python 3.10–3.12, an OpenRouter API key
-([get free here](https://openrouter.ai/keys)).
+**Prerequisites**
+
+| Tool | Version | macOS install hint |
+|---|---|---|
+| Python | **>= 3.10** (required by deps) | `brew install python@3.12` |
+| Docker | any recent | Docker Desktop |
+| OpenRouter API key | free tier | [openrouter.ai/keys](https://openrouter.ai/keys) |
+
 **RAM**: ~3 GB during ingest, ~500 MB at idle.
+
+> macOS ships with Python 3.9 by default — that's too old. If
+> `python3 --version` reports 3.9 or older, run `brew install python@3.12`
+> first. The `make install` target auto-detects `python3.10`/`3.11`/`3.12`
+> on PATH and uses the newest. To force a specific binary:
+> ```bash
+> make install PYTHON_BOOTSTRAP=$(brew --prefix python@3.12)/bin/python3.12
+> ```
 
 ```bash
 # 1. Configure secret (paste your OpenRouter key)
@@ -541,6 +555,8 @@ missing:
 
 | Symptom | Likely cause / fix |
 |---|---|
+| `Package 'rag-qdrant' requires a different Python: 3.9.x not in '<3.13,>=3.10'` | macOS default `python3` is 3.9. `brew install python@3.12`, then `make install` (auto-detects newer Python) or `make install PYTHON_BOOTSTRAP=$(brew --prefix python@3.12)/bin/python3.12` |
+| `Directory cannot be installed in editable mode` (pip < 22) | Already fixed — `setup.py` shim is bundled. If you still see this, your `make install` ran outside the repo; cd into the repo first |
 | `Qdrant returned HTTP 401` | `EMBED_API_KEY` left blank or `QDRANT_API_KEY` mismatched between `.env` and `docker compose up` |
 | `make ingest` hangs at "queued for vectorization" | Embedding endpoint slow or down; check `make embed-health` |
 | `text-embedding-3-small` cosine ranking looks weird on some queries | Expected for English-leaning model on Vietnamese; the Cohere rerank stage usually fixes it (top-1 score 0.95+). |

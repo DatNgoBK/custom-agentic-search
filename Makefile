@@ -6,6 +6,11 @@
 PYTHON  ?= $(if $(wildcard .venv/bin/python),.venv/bin/python,python3)
 COMPOSE ?= docker compose
 
+# For `make install` we need a Python >= 3.10 binary. macOS often ships
+# with 3.9 as `python3` so we try common 3.10+ binaries first and fall
+# back to PYTHON if they aren't present. Override: `make install PYTHON_BOOTSTRAP=/path/to/python3.11`
+PYTHON_BOOTSTRAP ?= $(shell command -v python3.12 || command -v python3.11 || command -v python3.10 || command -v python3 || echo missing-python)
+
 help:
 	@echo "Targets:"
 	@echo "  install        — install package + dev deps"
@@ -29,14 +34,40 @@ help:
 	@echo "  demo           — full e2e: up + ingest + quality-check + query"
 
 install:
+	@# 1. Verify a usable Python interpreter is available
+	@if [ "$(PYTHON_BOOTSTRAP)" = "missing-python" ]; then \
+		echo "::error:: No python3 binary found on PATH."; \
+		echo "  This project needs Python 3.10 or newer."; \
+		echo "  macOS:  brew install python@3.12"; \
+		echo "  Ubuntu: sudo apt install python3.12 python3.12-venv"; \
+		echo "  Or download from https://www.python.org/downloads/"; \
+		exit 1; \
+	fi
+	@# 2. Verify the version is >= 3.10
+	@$(PYTHON_BOOTSTRAP) -c "import sys; sys.exit(0 if sys.version_info >= (3, 10) else 1)" || { \
+		ver=$$($(PYTHON_BOOTSTRAP) --version 2>&1); \
+		echo "::error:: $(PYTHON_BOOTSTRAP) reports $$ver, but project requires Python >= 3.10."; \
+		echo ""; \
+		echo "  Dependencies (openviking, qdrant-client, marker-pdf, ...) all"; \
+		echo "  require 3.10+, so we cannot relax this."; \
+		echo ""; \
+		echo "  Easiest fix on macOS:"; \
+		echo "      brew install python@3.12"; \
+		echo "      make install PYTHON_BOOTSTRAP=$$(brew --prefix python@3.12)/bin/python3.12"; \
+		echo ""; \
+		echo "  Already have a newer Python at a custom path?"; \
+		echo "      make install PYTHON_BOOTSTRAP=/path/to/python3.12"; \
+		exit 1; \
+	}
+	@# 3. Create venv + install
 	@if [ ! -d .venv ]; then \
-		echo "→ Creating .venv (Python 3.10+)..."; \
-		$(PYTHON) -m venv .venv; \
+		echo "→ Creating .venv with $$($(PYTHON_BOOTSTRAP) --version 2>&1)..."; \
+		$(PYTHON_BOOTSTRAP) -m venv .venv; \
 	fi
 	@.venv/bin/python -m pip install --upgrade pip --quiet
 	@.venv/bin/python -m pip install -e ".[dev,otel]"
 	@echo
-	@echo "✓ Installed into .venv. Activate with:  source .venv/bin/activate"
+	@echo "✓ Installed into .venv. All make targets auto-use it."
 
 qdrant-up:
 	$(COMPOSE) --profile qdrant up -d qdrant
